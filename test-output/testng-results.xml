@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="21" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-04T22:58:38 WIB" name="Default suite" finished-at="2023-01-04T23:00:23 WIB" duration-ms="105552">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-01-04T22:58:38 WIB" name="Default test" finished-at="2023-01-04T23:00:23 WIB" duration-ms="105552">
+      <class name="com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:58:38 WIB" name="setUpClass" finished-at="2023-01-04T22:58:40 WIB" duration-ms="2157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@919086]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:58:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:16 WIB" duration-ms="36069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Field Username dan Password Benar pada Admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login Admin"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:16 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:18 WIB" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC01_Memasuki Halaman Input"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:18 WIB" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC02_Memasuki Halaman Upload"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:19 WIB" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC03_Memasuki Halaman TTD Digital"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:19 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:20 WIB" duration-ms="1586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC04_Tidak Mengisi Apapun"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:23 WIB" duration-ms="2207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC05_Tidak Mengisi Nama"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:23 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:28 WIB" duration-ms="5232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC06_Tidak Mengisi Nomor BPJS"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:28 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:31 WIB" duration-ms="3633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC07_Tidak Mengisi Nomor KTP"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:31 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:36 WIB" duration-ms="4340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC08_Tidak Mengisi Alamat"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:39 WIB" duration-ms="3081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC09_Tidak Mengisi Kota KTP"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:41 WIB" duration-ms="2377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC10_Tidak Mengisi Faskes Awal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:41 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:45 WIB" duration-ms="3553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC11_Tidak Mengisi Faskes Tujuan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:49 WIB" duration-ms="4523" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC12_Tidak Mengisi Alasan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="submit" class="btn btn-primary">...</button> is not clickable at point (589, 620). Other element would receive the click: <textarea class="form-control" id="reason" name="reason" rows="4" placeholder="Tulis alasan disini..."></textarea>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58VSFVH', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6026c524cb67628c752a073852d0987f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" class="btn btn-primary">...</button> is not clickable at point (589, 620). Other element would receive the click: <textarea class="form-control" id="reason" name="reason" rows="4" placeholder="Tulis alasan disini..."></textarea>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58VSFVH', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6026c524cb67628c752a073852d0987f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+at com.juaracoding.ta.ProjectSiloam.pages.InputPage.clickBtnSimpan_Data(InputPage.java:139)
+at com.juaracoding.ta.ProjectSiloam.step_definitions.TestInput.ts44_klik_button_simpan_data(TestInput.java:446)
+at ✽.TS44_Klik button Simpan Data(file:///C:/Users/ASUS/eclipse-workspace/ProjectSiloam-dhimas/src/main/resources/features/02.InputPage.feature:69)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:51 WIB" duration-ms="1625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC13_Mengisi nomor BPJS dengan alphabet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:53 WIB" duration-ms="2015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC14_Mengisi nomor KTP dengan alphabet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:55 WIB" duration-ms="1738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC15_Mengisi nomor BPJS lebih dari 13 karakter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:57 WIB" duration-ms="1939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC16_Mengisi nomor KTP lebih dari 16 karakter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T22:59:59 WIB" duration-ms="2595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC17_Mengisi nomor BPJS kurang dari 13 karakter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T22:59:59 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T23:00:02 WIB" duration-ms="2345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC18_Mengisi nomor KTP kurang dari 16 karakter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T23:00:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T23:00:04 WIB" duration-ms="2097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC19_Kota KTP dan Faskes Tujuan di Kota yang Sama"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T23:00:04 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T23:00:06 WIB" duration-ms="2006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC20_Kota KTP dan Faskes Tujuan di Kota yang Berbeda"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T23:00:06 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-04T23:00:12 WIB" duration-ms="6743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TCC21_Mengisi semua field dengan benar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Input Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest@2ef3eef9]" started-at="2023-01-04T23:00:12 WIB" name="tearDownClass" finished-at="2023-01-04T23:00:23 WIB" duration-ms="10896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.juaracoding.ta.ProjectSiloam.step_definitions.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
